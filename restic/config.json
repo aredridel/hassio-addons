@@ -1,6 +1,6 @@
 {
     "name": "Restic",
-    "version": "0.5.1-p3",
+    "version": "0.5.1-p4",
     "slug": "restic",
     "description": "Create back-ups using restic",
     "arch": [
@@ -43,6 +43,8 @@
         },
         "exclude_patterns" : ["str"]
     },
+    "apparmor": false,
     "udev": true,
+    "devices": "/dev/disk/by-label/hassos-data",
     "privileged": ["SYS_ADMIN"]
 }
