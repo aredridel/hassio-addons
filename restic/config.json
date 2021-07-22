@@ -21,13 +21,21 @@
         "media"
     ],
     "options": {
-        "env_vars": {},
-        "exclude_patterns":[
+        "exclude_patterns": [
             "homeassistant/home-assistant.log",
             "homeassistant/home-assistant_v2.db",
             "addons/data/a0d7b954_influxdb/influxdb/wal",
             "addons/data/52a4f95e_restic/restic-cache"
         ]
+    },
+    "schema": {
+        "env_vars": {
+             "AWS_ACCESS_KEY_ID": "str?",
+             "AWS_SECRET_ACCESS_KEY": "str?",
+             "RESTIC_REPOSITORY": "str",
+             "RESTIC_PASSWORD": "str"
+        },
+        "exclude_patterns" : ["str"]
     },
     "full_access":true
 }
