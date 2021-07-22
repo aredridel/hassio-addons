@@ -1,6 +1,6 @@
 {
     "name": "Restic",
-    "version": "0.5.1-p6",
+    "version": "0.5.1-p8",
     "slug": "restic",
     "description": "Create back-ups using restic",
     "arch": [
