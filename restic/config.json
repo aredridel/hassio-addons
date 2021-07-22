@@ -1,6 +1,6 @@
 {
     "name": "Restic",
-    "version": "0.5.1-p2",
+    "version": "0.5.1-p3",
     "slug": "restic",
     "description": "Create back-ups using restic",
     "arch": [
@@ -43,5 +43,6 @@
         },
         "exclude_patterns" : ["str"]
     },
-    "full_access": true
+    "udev": true,
+    "privileged": ["SYS_ADMIN"]
 }
