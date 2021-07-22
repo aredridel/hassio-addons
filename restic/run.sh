@@ -4,7 +4,7 @@ date
 set -e
 
 mount
-ls -l /
+ls -l /addons
 
 mkdir -p /data/restic-cache
 
