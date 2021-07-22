@@ -45,6 +45,6 @@
     },
     "apparmor": false,
     "udev": true,
-    "devices": "/dev/disk/by-label/hassos-data",
+    "devices": ["/dev/disk/by-label/hassos-data"],
     "privileged": ["SYS_ADMIN"]
 }
