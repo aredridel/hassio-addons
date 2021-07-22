@@ -21,6 +21,12 @@
         "media"
     ],
     "options": {
+        "env_vars": {
+             "AWS_ACCESS_KEY_ID": "",
+             "AWS_SECRET_ACCESS_KEY": "",
+             "RESTIC_REPOSITORY": "",
+             "RESTIC_PASSWORD": ""
+        },
         "exclude_patterns": [
             "homeassistant/home-assistant.log",
             "homeassistant/home-assistant_v2.db",
@@ -37,5 +43,5 @@
         },
         "exclude_patterns" : ["str"]
     },
-    "full_access":true
+    "full_access": true
 }
