@@ -29,6 +29,5 @@
             "addons/data/52a4f95e_restic/restic-cache"
         ]
     },
-    "schema":false,
     "full_access":true
 }
