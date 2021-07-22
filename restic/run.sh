@@ -3,6 +3,13 @@ echo "HassOS restic add-on starting"
 date
 set -e
 
+mount
+
+ls -l
+ls -l /
+
+pwd
+
 mkdir -p /data/restic-cache
 
 # find and mount the data partition
