@@ -6,11 +6,7 @@ set -e
 mkdir -p /data/restic-cache
 
 # find and mount the data partition
-udevd --daemon && sleep 0.5
-udevadm trigger && sleep 0.5
 mkdir /hassos-data
-
-ls -R /dev/disk/
 
 mount /dev/disk/by-label/hassos-data /hassos-data/
 
